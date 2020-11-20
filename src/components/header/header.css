@@ -1,0 +1,39 @@
+header {
+    background: black;
+    padding: 5px 15px;
+    height: 40px;
+
+}
+
+nav {
+    height: 100%;
+    width: 50%;
+    border: 2px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+a {
+    color: white;
+    font-size: var(--font-l);
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    header {
+
+    }
+
+    nav {
+        width: 80%;
+    }
+
+    a {
+
+    }
+
+}
